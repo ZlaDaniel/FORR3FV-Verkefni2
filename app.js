@@ -32,7 +32,6 @@ function initCube() {
 }
 
 function rotateCube() {
-    cube.rotation.x -= SPEED * 2;
     cube.rotation.y -= SPEED;
     cube.rotation.z -= SPEED * 3;
 }
