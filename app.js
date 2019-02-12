@@ -27,7 +27,7 @@ function initRenderer() {
 }
 
 function initCube() {
-    cube = new THREE.Mesh(new THREE.CubeGeometry(2, 2, 2), new THREE.MeshNormalMaterial());
+    cube = new THREE.Mesh(new THREE.CubeGeometry(3, 3, 3), new THREE.MeshNormalMaterial());
     scene.add(cube);
 }
 
